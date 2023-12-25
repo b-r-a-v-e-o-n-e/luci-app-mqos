@@ -6,9 +6,9 @@ s = m:section(TypedSection, "global")
 s.addremove = false
 s.anonymous = true
 
-e = s:option(Flag, "enabled", Translate("启用"))
+e = s:option(Flag, "enabled", Translate("enable"))
 
-ifa = s:option(Value, "interface", Translate("接口"))
+ifa = s:option(Value, "interface", Translate("interface"))
 ifa.description = translate("Need to save the application first")
 ifa.datatype = "string"
 ifa.default = "br-lan"
